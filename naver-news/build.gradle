@@ -1,0 +1,15 @@
+jar {
+    enabled = true
+}
+bootJar {
+    enabled = false
+}
+
+group = 'com.kjung'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+    implementation project(':http-client')
+
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+}
